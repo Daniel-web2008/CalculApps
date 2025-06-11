@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js"></script>
+  <title>CalculApps</title>
+</head>
+
+<body>
+  <div class="calculatrice">
+    <div class="part  part1">
+      <input type="text" id="screen" value="0" class="screen" disabled>
+      <div class="touches">
+        <button class="btn_function" data-action="(">(</button>
+        <button class="btn_function"  data-action=")">)</button>
+        <button data-action="clear">AC</button>
+        <button data-action="delete">C</button>
+        <button data-action="OFF">OFF</button>
+        <button data-action="/">/</button>
+        <button class="btn_function"  data-action="x²">x²</button>
+        <button class="btn_function"  data-action="x³">x³</button>
+        <button data-value="7">7</button>
+        <button data-value="8">8</button>
+        <button data-value="9">9</button>
+        <button data-action="*">*</button>
+        <button class="btn_function"  data-action="√">√</button>
+        <button class="btn_function"  data-action="∛">∛</button>
+        <button data-value="4">4</button>
+        <button data-value="5">5</button>
+        <button data-value="6">6</button>
+        <button data-action="-">-</button>
+        <button class="btn_function"  data-action="sin(">sin(</button>
+        <button class="btn_function"  data-action="cos(">cos(</button>
+        <button data-value="1">1</button>
+        <button data-value="2">2</button>
+        <button data-value="3">3</button>
+        <button data-action="+">+</button>
+        <button class="btn_function"  data-action="+/-">+/-</button>
+        <button class="btn_function"  data-action="tan(">tan(</button>
+        <button data-value="0">0</button>
+        <button data-value=".">.</button>
+        <button id="result" data-action="result">=</button>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="./renderer.js"></script>
+</body>
+
+</html>
